@@ -1,6 +1,6 @@
-## Name: Branden Murphy
-## Date: 1/8/2023
-## Coruse: WDV339-O
+### Name: Branden Murphy
+### Date: 1/8/2023
+### Coruse: WDV339-O
 
 # Project Overview
 
@@ -16,7 +16,7 @@ This is my Spotify API application Project. The overall goal for this project is
 - Express = v4.18.2
 - Nodemon = v2.0.20
 
-# All test were done using Postman
+ All test were done using Postman
 - Postman
 
 # Getting Started
