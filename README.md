@@ -6,7 +6,7 @@
 
 This is the week 1 Project Overview. (1/8/2023)
 
-This is my Spotify API application Project. The overall goal for this project is to allow users to browse the search bar once authorized via Sign-in. Once the user is validated via JSON web AUTH tokens. The user then can search throught Spotifys song list using Spotifys web-api ([Spotify Web API](https://developer.spotify.com/documentation/web-api/)). This search can be done via Artists, Songs, and Albumns.
+This is my Spotify API application Project. The overall goal for this project is to allow users to browse the search bar once authorized via Sign-in. Once the user is validated via JSON web AUTH tokens. The user then can search throughout Spotifys song list using Spotifys web-api ([Spotify Web API](https://developer.spotify.com/documentation/web-api/)). This search can be done via Artists, Songs, and Albumns.
 
 # Prerequisites
 
@@ -15,7 +15,9 @@ This is my Spotify API application Project. The overall goal for this project is
 - Dotenv =  v16.0.3
 - Express = v4.18.2
 - Nodemon = v2.0.20
-- Chrome/Firefox/Safari/Edge >= Latest 2 major versions
+
+# All test were done using Postman
+- Postman
 
 # Getting Started
 
