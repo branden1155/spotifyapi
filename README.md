@@ -33,3 +33,5 @@ The server will automatically stay updated using Nodemon when changes are made.
 
 The links to the project are as follows: 
 - [http://localhost:3001](http://localhost:3001) - Backend API Server URL
+
+- More links will be added when there are more Routes added for the application
