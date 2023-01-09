@@ -1,0 +1,25 @@
+{
+  "name": "spotifyapi-1",
+  "version": "1.0.0",
+  "description": "Spotify API Application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/branden1155/SpotifyAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/branden1155/SpotifyAPI/issues"
+  },
+  "homepage": "https://github.com/branden1155/SpotifyAPI#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
