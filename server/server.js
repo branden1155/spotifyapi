@@ -4,7 +4,7 @@ const bodyParser = require('body-parser')
 const app = express();
 const dotenv = require("dotenv");
 require('dotenv').config({path: __dirname + '/../.env'});
-const loginRoute = require('./Routes/loginRoute')
+const LoginRoute = require('./Routes/loginRoute')
 
 // Middleware
 app.use(cors());
@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 });
 
 // Login route...
-app.use("/v1/login", loginRoute);
+app.use("/v1/login", LoginRoute);
 
 // Starting Server .... Takeoff!
 app.listen(PORTURL, (err) => {
