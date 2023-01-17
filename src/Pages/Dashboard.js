@@ -2,10 +2,6 @@ import React, {useEffect} from 'react';
 import useAuth from '../Hooks/useAuth'
 const SpotifyWebApi = require('spotify-web-api-node');
 
-const spotifyApi = new SpotifyWebApi({
-    clientId: process.env.CLIENT_ID,
-  })
-
 export default function Dashboard({ code }) {
     const [accessToken, refreshToken, expiresIn] = useAuth(code);
 
