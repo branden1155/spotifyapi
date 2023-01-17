@@ -17,8 +17,6 @@ export default function useAuth(code){
             setRefreshToken(res.data.refreshToken);
             setExpiresIn(res.data.expiresIn)
         
-        }).then(res => {
-            console.log(accessToken)
         })
         .catch((err) => {
             console.log(err)
