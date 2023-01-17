@@ -14,15 +14,24 @@ This is my Spotify API application Project. The overall goal for this project is
 - NPM = v8.2.0
 - Dotenv =  v16.0.3
 - Express = v4.18.2
-- Nodemon = v2.0.20
+- spotify-web-api-node = v5.0.2
+- axios = v1.2.2
+
+
+### Dev Dependencies
+
+- Nodemon
 
  All test were done using Postman
 - Postman
 
 # Getting Started
 
-To get Started, start off by running >= npm i
-This will initialize the dependencies needed to run the application.
+To get Started, start off by running >= npm i inside the SPOTIFYAPI folder,
+Then head cd into the server ( cd server ), then run >= npm i.
+This will initialize the dependencies needed to run the application inside the front-end react application, and also the server.
+
+Then configure the .env file to connect important spotify links to the server. You can use the .env.example file to relate to the issue.
 
 (if using Localhost PORTs)
 Make sure there are no other servers running on PORTs 3001, and also 3002 for backups. (If there are other servers running on these ports, the applications server will not start.)
