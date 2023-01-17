@@ -4,7 +4,7 @@
 
 # Project Overview
 
-This is the week 1 Project Overview. (1/8/2023)
+This is the week 2 Project Overview. (1/15/2023)
 
 This is my Spotify API application Project. The overall goal for this project is to allow users to browse the search bar once authorized via Sign-in. Once the user is validated via JSON web AUTH tokens. The user then can search throughout Spotifys song list using Spotifys web-api ([Spotify Web API](https://developer.spotify.com/documentation/web-api/)). This search can be done via Artists, Songs, and Albumns.
 
