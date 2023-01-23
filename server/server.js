@@ -5,6 +5,7 @@ const app = express();
 const dotenv = require("dotenv");
 dotenv.config();
 const LoginRoute = require('./Routes/loginRoute')
+const RefreshRoute = require('./Routes/refreshRoute')
 
 app.use(cors());
 app.use(bodyParser.json());
@@ -18,6 +19,7 @@ app.get('/', (req, res) => {
 });
 
 app.use("/v1/login", LoginRoute);
+app.use("/v1/refresh", RefreshRoute)
 
 app.listen(PORTURL, (err) => {
     if (err) console.log(err);
