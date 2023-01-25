@@ -1,10 +1,10 @@
 ### Name: Branden Murphy
-### Date: 1/15/2023
+### Date: 1/24/2023
 ### Coruse: WDV339-O
 
 # Project Overview
 
-This is the week 2 Project Overview. (1/15/2023)
+This is the week 3 Project Overview. (1/24/2023)
 
 This is my Spotify API application Project. The overall goal for this project is to allow users to browse the search bar once authorized via Sign-in. Once the user is validated via JSON web AUTH tokens. The user then can search throughout Spotifys song list using Spotifys web-api ([Spotify Web API](https://developer.spotify.com/documentation/web-api/)). This search can be done via Artists, Songs, and Albumns.
 
@@ -44,5 +44,6 @@ The server will automatically stay updated using Nodemon when changes are made.
 
 The links to the project are as follows: 
 - [http://localhost:3001](http://localhost:3001) - Backend API Server URL
+- [http://localhost:3001/v1/login](http://localhost:3001/v1/login) - Login To Spotify API
 
 - More links will be added when there are more Routes added for the application
