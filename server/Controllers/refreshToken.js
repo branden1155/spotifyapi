@@ -14,8 +14,8 @@ const refreshTheToken = (req,res) => {
         .refreshAccessToken()
         .then(data => {
             res.json({
-            accessToken: data.body.accessToken,
-            expiresIn: data.body.expiresIn,
+            accessToken: data.body.access_token,
+            expiresIn: data.body.expires_in,
         })
         console.log("Controller Access Token:", accessToken)
     })

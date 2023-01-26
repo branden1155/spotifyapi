@@ -23,7 +23,7 @@ const Search = ({ code }) => {
         if (!search) return setSearchResults([]);
         if (!accessToken) return;
 
-        spotifyApi.searchTracks(search).then((res) => {
+        spotifyApi.searchTracks(search, {limit: 10}).then((res) => {
             setSearchResults(res.body.tracks.items.map((i) => {
                 return {
                   artist: i.artists[0].name,
