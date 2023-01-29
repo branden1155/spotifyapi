@@ -16,9 +16,9 @@ export default function Login() {
                     </div>
                 </header>
             </div>
-            <div className="flex flex-col justify-center pt-64 text-center">
-                <span className="text-[#1db954] font-bold text-xl">Login to Spotify to search for<br/>your favorite Songs, Artists, and More!</span>
-                <a href={URL} className="text-black hover:text-2xl duration-500 ease-in-out pt-2">Log-in!</a>
+            <div className="flex flex-col justify-center items-center pt-64 text-center">
+                <span className="text-[#1db954] font-bold text-xl drop-shadow-sm">Login to Spotify to search for<br/>your favorite Songs, Artists, and More!</span>
+                <button href={URL} type="button" value="Log-in" className="text-black hover:text-xl hover:w-24 hover:h-12 duration-300 ease-in-out mt-2 w-20 h-10 bg-[#1db954] uppercase font-medium text-sm shadow-md drop-shadow-sm">Log-in!</button>
             </div>
         </div>
         
