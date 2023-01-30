@@ -30,7 +30,6 @@ mongoose.connect(process.env.DATABASE_URL, (err) => {
 })
 
 app.use('/accessTokenModel', accessTokenModel)
-
 app.use("/v1/login", LoginRoute);
 app.use("/v1/refresh", RefreshRoute)
 
